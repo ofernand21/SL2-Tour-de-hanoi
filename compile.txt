@@ -1,0 +1,4 @@
+# How to compile this project
+# with gcc you do
+
+gcc main.c -o test $(sdl2-config --libs --cflags) -lSDL2_image -lSDL2_mixer -lSDL2_ttf
